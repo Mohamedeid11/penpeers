@@ -1,0 +1,7 @@
+html, body, * {
+  font-family: "PT Serif", sans-serif;
+}
+
+.ck.ck-content hr {
+  height: 1px;
+}

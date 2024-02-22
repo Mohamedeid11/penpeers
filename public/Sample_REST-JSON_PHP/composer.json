@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php": ">=5.5.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

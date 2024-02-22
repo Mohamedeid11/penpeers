@@ -1,0 +1,36 @@
+.likely {
+    margin: 24px auto;
+}
+.likely .likely__widget {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #63caf7;
+    border-radius: 50%;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    padding: 0;
+    width: 44px;
+}
+.likely button.likely__button {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    padding: 0;
+}
+.likely .likely__button {
+    padding: 0;
+}
+.likely-email:hover {
+    background-color: #c2b4b3;
+}
+.likely-copy:hover {
+    background-color: #28a745;
+}
+.likely-mob:hover {
+    background-color: #34373b;
+}
+.likely-icon {
+    width: 16px !important;
+    height: 16px !important;
+}

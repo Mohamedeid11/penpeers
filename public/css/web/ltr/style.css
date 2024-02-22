@@ -1,0 +1,79 @@
+.bg-image--1 {
+    background-image: url(../../../images/web/bg/1.jpg);
+}
+
+@media screen and (max-width: 991px) {
+    .bg-image--1 {
+        background: #f1f1f1;
+    }
+}
+
+.bg-image--4 {
+    background-image: url(../../../images/web/bg/4.jpg);
+}
+
+.bg-image--8 {
+    background-image: url(../../../images/web/bg/8.jpg);
+}
+
+.notifications-count {
+    right: 28px;
+}
+
+.bell-icon {
+    margin-right: 8px;
+}
+
+/* Home */
+.newsletter__block .newsletter__box svg {
+    left: 16px;
+}
+
+.slide .slider__content a.shopbtn::after {
+    margin-left: 25px;
+}
+
+.contentbox {
+    margin-left: 10%;
+}
+
+/* Book */
+.product__info__detailed .pro_details_nav a.nav-item + .nav-item {
+    margin-left: 38px;
+}
+
+/* Blogs */
+.blog-page .blog__post .content {
+    padding-left: 20px;
+}
+
+.blog-page .blog__post .content .post__meta::after {
+    left: 0;
+}
+
+/* FAQ */
+.acc-header button {
+    padding: 18px 40px 18px 26px;
+    text-align: left;
+}
+
+.acc-header button::after {
+    right: 8px;
+}
+
+/* Blogs */
+.wn__sidebar .widget.recent_widget .recent-posts ul li.post-wrapper .content {
+    padding-left: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .header__area .header__sidebar__right {
+        margin-right: 45px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header__area .header__sidebar__right {
+        margin-right: 50px;
+    }
+}

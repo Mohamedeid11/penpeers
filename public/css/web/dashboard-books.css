@@ -1,0 +1,17 @@
+.book-cover, .child span {
+    position: relative;
+}
+
+.book-cover img, .child img {
+    cursor: zoom-in;
+    object-fit: cover;
+}
+
+.book-cover-bigger-img {
+    position: absolute;
+    max-width: 150px;
+    height: auto;
+    bottom: 72px;
+    left: -72px;
+    max-height: 300px;
+}

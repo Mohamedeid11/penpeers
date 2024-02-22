@@ -1,0 +1,120 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Menu menu */
+.mean-container a.meanmenu-reveal {
+    right: unset !important;
+    left: 32px !important;
+}
+
+.header__area .logo {
+    text-align: right;
+}
+
+.copy__right__inner {
+    text-align: right;
+}
+
+th,
+td {
+    text-align: right;
+}
+
+.bg-image--1 {
+    background-image: url(../../../images/web/bg/1-ar.jpg);
+}
+
+@media screen and (max-width: 991px) {
+    .bg-image--1 {
+        background: #f1f1f1;
+    }
+}
+
+.bg-image--4 {
+    background-image: url(../../../images/web/bg/4-ar.jpg);
+}
+
+.bg-image--8 {
+    background-image: url(../../../images/web/bg/8-ar.jpg);
+}
+
+.notifications-count {
+    left: 28px;
+}
+
+.bell-icon {
+    margin-left: 8px;
+}
+
+/* Bootstrap */
+.header__area .header__sidebar__right ul li a {
+    text-align: right;
+}
+
+.custom-control {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    left: unset;
+    right: -1.5rem;
+}
+
+/* Home */
+.newsletter__block .newsletter__box svg {
+    right: 16px;
+}
+
+.slide .slider__content a.shopbtn::after {
+    transform: scaleX(-1);
+    margin-right: 25px;
+}
+
+.contentbox {
+    margin-right: 10%;
+}
+
+/* Book */
+.product__info__detailed .pro_details_nav a.nav-item + .nav-item {
+    margin-right: 38px;
+}
+
+/* Blogs */
+.blog-page .blog__post .content {
+    padding-right: 20px;
+}
+
+.blog-page .blog__post .content .post__meta::after {
+    right: 0;
+}
+
+/* FAQ */
+.acc-header button {
+    padding: 18px 26px 18px 40px;
+    text-align: right;
+}
+
+.acc-header button::after {
+    left: 8px;
+}
+
+/* Blogs */
+.wn__sidebar .widget.recent_widget .recent-posts ul li.post-wrapper .content {
+    padding-right: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .header__area .header__sidebar__right {
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header__area .header__sidebar__right {
+        margin-left: 50px;
+    }
+}

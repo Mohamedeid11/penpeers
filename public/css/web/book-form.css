@@ -1,0 +1,54 @@
+.acoount-type-check {
+    background: var(--secondary-color);
+    border-radius: 50px;
+    margin: 8px 0;
+    padding: 3px;
+    width: max-content;
+}
+.acoount-type-check label {
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 2px 24px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+.acoount-type-check label::before {
+    background: var(--main-color);
+    border-radius: 50px;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+    z-index: -1;
+    transform: translateX(-102%);
+}
+.acoount-type-check label:first-of-type::before {
+    transform: translateX(102%);
+}
+.acoount-type-check input:checked + label {
+    color: #fff;
+}
+.acoount-type-check input:checked + label::before {
+    height: 100%;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#disable-request:checked
+    ~ .acoount-type-check
+    label[for="disable-request"]:before,
+#enable-request:checked
+    ~ .acoount-type-check
+    label[for="enable-request"]:before {
+    height: 100%;
+    opacity: 1;
+    transform: translateX(0);
+}
+.panel-body svg {
+    width: 18px;
+    height: 16px;
+}

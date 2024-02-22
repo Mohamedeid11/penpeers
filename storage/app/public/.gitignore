@@ -1,0 +1,6 @@
+*
+!.gitignore
+!defaults
+!defaults/*
+!feeds
+!feeds/*

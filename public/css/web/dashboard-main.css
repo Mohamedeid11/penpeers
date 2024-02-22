@@ -1,0 +1,116 @@
+.dasboard-main {
+    margin-bottom: 96px;
+}
+
+.dasboard-main header {
+    padding: 40px 40px 0;
+    background-color: #fff;
+}
+
+.dashboard-title {
+    color: #808284;
+}
+
+.dashboard-sub-title {
+    color: var(--secondary-color);
+    font-size: 28px;
+}
+
+.dashboard-sub-title span {
+    color: var(--main-color);
+}
+
+.dashboard-stat {
+    width: calc(100% / 5);
+    margin-bottom: 16px;
+}
+
+.dashboard-stat a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 139px;
+    border-radius: 10px;
+    background: #85b1b5;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.dashboard-stat .icon img {
+    width: 64px;
+    height: 64px;
+}
+
+.dashboard-stat:nth-of-type(1) a {
+    background: #87ceeb;
+}
+
+.dashboard-stat:nth-of-type(3) a {
+    background: #dba052;
+}
+
+.dashboard-stat:nth-of-type(4) a {
+    background: #71af71;
+}
+
+.dashboard-stat:nth-of-type(5) a,
+.dashboard-stat:nth-of-type(11) a {
+    background: #bf6262;
+}
+
+.dashboard-stat:nth-of-type(6) a {
+    background: #91918e;
+}
+
+.dashboard-stat:nth-of-type(7) a {
+    background: #6982a8;
+}
+
+.dashboard-stat:nth-of-type(8) a {
+    background: #929b62;
+}
+
+.dashboard-stat:nth-of-type(9) a {
+    background: #69b799;
+}
+
+.dashboard-stat:nth-of-type(10) a {
+    background: #bf996f;
+}
+
+.dashboard-stat .name {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.dashboard-stat .number {
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    top: 8px;
+    right: 8px;
+}
+
+@media screen and (max-width: 1100px) {
+    .dashboard-stat {
+        width: calc(100% / 3);
+    }
+
+    .dashboard-stat:nth-of-type(8) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dashboard-stat {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .dashboard-stat {
+        width: 100%;
+    }
+}

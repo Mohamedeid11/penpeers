@@ -1,0 +1,43 @@
+.ck,
+#editor {
+    font-family: "PT Serif", sans-serif;
+}
+.ck *,
+#editor * {
+    font-family: inherit;
+}
+.ck.ck-editor {
+    width: 100% !important;
+}
+.ck-content hr {
+    height: 1px !important;
+}
+.ck-editor__top {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+}
+.editor-container {
+    max-height: calc(100vh - 290px);
+}
+.ck-heading-dropdown {
+    width: 100px !important;
+}
+.ck-editor-read {
+    max-width: 800px;
+    max-height: calc(100vh - 90px);
+}
+div[data-editor="DecoupledDocumentEditor"] .row-editor,
+.toolbar-container,
+.editor-status-container {
+    max-width: 800px;
+    margin: auto;
+}
+.ck a,
+#editor a {
+    color: #007bff;
+}
+.ck ul,
+#editor ul {
+    list-style: initial;
+}

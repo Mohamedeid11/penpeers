@@ -1,0 +1,18 @@
+.left-sidebar .side-nav li a,
+.left-sidebar .side-nav .nav-header {
+    padding-left: 15px;
+}
+
+.panel-heading .panel-title {
+    padding-left: 15px;
+}
+
+.underline:after {
+    left: 0;
+}
+
+/* Data tables */
+.dataTables_filter,
+div.dataTables_wrapper div.dataTables_paginate {
+    margin-left: auto !important;
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 124.25 990 432.09">
+  <defs>
+    <style>
+      .cls-32 {
+        fill: #35281e;
+      }
+      .cls-26 {
+        fill: none;
+        stroke: #35281e;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+      .cls-31 {
+        fill: #fff;
+      }
+      .cls-33 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="509.67" cy="326.24" r="60.4" gradientTransform="translate(-189.49 53.62) scale(1.37 0.84)" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.99" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <path class="cls-26" d="M582,134.89H924.25A64.78,64.78,0,0,1,989,199.67V481.73a64.79,64.79,0,0,1-64.78,64.79H574a64.78,64.78,0,0,1-64.53-59.08L510.29,194a64.79,64.79,0,0,0-64.54-59.07h-380A64.78,64.78,0,0,0,1,199.67V481.73a64.78,64.78,0,0,0,64.78,64.79H411.57"/>
+      <circle class="cls-31" cx="582.39" cy="134.89" r="7.52" transform="translate(75.2 451.32) rotate(-45)"/>
+      <path class="cls-32" d="M582.39,143.4a8.52,8.52,0,1,0-8.52-8.51,8.53,8.53,0,0,0,8.52,8.51Zm0-15a6.52,6.52,0,1,1-6.52,6.52,6.53,6.53,0,0,1,6.52-6.52Z"/>
+      <circle class="cls-31" cx="411.14" cy="546.52" r="7.52" transform="translate(-251.11 717.22) rotate(-67.5)"/>
+      <path class="cls-32" d="M411.14,555a8.52,8.52,0,1,1,8.52-8.52,8.53,8.53,0,0,1-8.52,8.52Zm0-15a6.52,6.52,0,1,0,6.52,6.52,6.52,6.52,0,0,0-6.52-6.52Z"/>
+      <ellipse class="cls-33" cx="509.73" cy="328.32" rx="82.87" ry="56.81"/>
+      <rect class="cls-31" x="420.5" y="289.34" width="177.09" height="78.48"/>
+    </g>
+  </g>
+</svg>

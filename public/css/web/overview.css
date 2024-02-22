@@ -1,0 +1,368 @@
+.Overview {
+    direction: ltr;
+}
+
+.Overview .content__logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.content__text {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.Overview img {
+    object-fit: cover;
+}
+
+/* Collaboration */
+.Collaboration,
+.Books {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 32px 10%;
+}
+
+.Collaboration__content {
+    padding: 32px 0 32px 32px;
+    flex: 1;
+    max-height: 467px;
+    border: 2px solid #fff;
+    border-right: 0;
+}
+
+.Collaboration__img {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 32px;
+    width: 467px;
+    height: 467px;
+    border: 2px solid #fff;
+    border-left: 0;
+}
+
+.Collaboration__img img {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* Contacts */
+.Contacts {
+    padding: 64px 10% 32px calc(10% + 32px);
+}
+
+.Contacts__img {
+    border-top-left-radius: 50%;
+    flex: 1;
+    height: 570px;
+    border: 2px solid;
+    border-right: 0;
+}
+
+.Contacts__img img {
+    border-bottom-width: 24px !important;
+    transform: translate(-32px, -32px);
+    border-top-left-radius: 50%;
+}
+
+.Contacts__content {
+    border-bottom-right-radius: 50%;
+    padding: 32px 32px 32px 0;
+    flex: 1;
+    border: 2px solid;
+    border-left: none;
+}
+
+/* Join */
+.Join {
+    padding: 32px 10%;
+}
+
+.Join__content {
+    padding: 64px 32px;
+    border: 2px solid;
+    border-right: 0;
+}
+
+.Join__img img {
+    height: calc(100% + 64px);
+    margin-top: -32px;
+}
+
+/* Books */
+.Books {
+    padding: 80px 10%;
+}
+
+.Books__img {
+    border-radius: 20px;
+    padding: 32px;
+    text-align: center;
+    margin-top: 10%;
+    border: 2px solid;
+}
+
+.Books__img img {
+    border: 8px solid transparent;
+    margin-top: -33%;
+    background-color: var(--main-color);
+    margin-bottom: 16px;
+}
+
+.Books__content img {
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+
+/* Multi */
+.Multi {
+    padding: 80px 10%;
+}
+
+.Multi__img {
+    flex: 1;
+}
+
+.Multi__img img {
+    object-fit: contain;
+}
+
+.Multi__content {
+    padding-left: 32px;
+    flex: 1;
+}
+
+/* Publication */
+.Publication {
+    padding: 0 10% 80px;
+}
+
+.Publication__container {
+    display: grid;
+}
+
+.Publication__overlay,
+.Publication__container > div {
+    grid-area: 1 / 1 / 2 / 2;
+    align-items: center;
+}
+
+.Publication__content {
+    display: flex;
+    padding: 0 80px;
+    flex: 1;
+    flex-direction: column;
+}
+
+/* Media query */
+@media screen and (max-width: 1200px) {
+    .Contacts {
+        padding: 64px 10% 32px calc(10% + 16px);
+    }
+
+    .Collaboration__content {
+        max-height: 238px;
+        padding: 16px 0 16px 16px;
+    }
+
+    .Contacts__content {
+        padding: 16px 16px 16px 0;
+    }
+
+    .Join__content {
+        padding: 32px 16px;
+    }
+
+    .Collaboration__img {
+        width: 238px;
+        height: 238px;
+        padding: 16px;
+    }
+
+    .Contacts__img {
+        height: 400px;
+    }
+
+    .Contacts__img img {
+        transform: translate(-16px, -16px);
+    }
+
+    .content__logo {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .content__heading {
+        font-size: 20px;
+    }
+
+    .content__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .Publication__content {
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .Collaboration {
+        padding: 32px 2.5%;
+    }
+
+    .Join,
+    .Contacts {
+        padding: 64px 2.5% 32px calc(2.5% + 32px);
+    }
+
+    .Books,
+    .Multi {
+        padding: 80px 2.5%;
+    }
+
+    .Publication {
+        padding: 0 2.5% 80px;
+    }
+
+    .Multi__content {
+        padding-left: 16px;
+    }
+
+    .Books__img {
+        padding: 16px;
+    }
+
+    .Books__content li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Collaboration__content {
+        max-height: 300px;
+    }
+
+    .Collaboration__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .Contacts__img {
+        height: 280px;
+    }
+
+    .content__heading {
+        font-size: 16px;
+    }
+
+    .content__text {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .Join {
+        padding-top: 32px;
+    }
+
+    .Collaboration__container,
+    .Join__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .Multi__container,
+    .Contacts__container,
+    .Publication__container,
+    .Books__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Books__container {
+        gap: 40px;
+    }
+
+    .Collaboration__content,
+    .Contacts__content,
+    .Join__content,
+    .Multi__content {
+        border: 0 !important;
+        text-align: center;
+        padding: 0;
+        margin-top: -28px;
+    }
+
+    .Multi__content {
+        margin-top: -46px;
+    }
+
+    .Collaboration__content div,
+    .Contacts__content div,
+    .Join__content div,
+    .Multi__content div {
+        background-color: var(--light-color);
+        padding: 8px;
+        border-radius: 50%;
+        width: 56px;
+        margin: 0 auto 16px;
+    }
+
+    .Collaboration__content div {
+        background-color: var(--main-color);
+    }
+
+    .content__logo {
+        margin-bottom: 0 !important;
+    }
+
+    .Collaboration__img {
+        text-align: center;
+        padding: 0;
+    }
+
+    .Collaboration__img,
+    .Contacts__img,
+    .Join__img img,
+    .Multi__img {
+        border: 0 !important;
+        width: 200px;
+        height: 200px;
+    }
+
+    .Contacts__img,
+    .Multi__img {
+        flex: auto;
+    }
+
+    .Collaboration__img img,
+    .Contacts__img img,
+    .Join__img img {
+        border-radius: 50%;
+    }
+
+    .Contacts__img img {
+        transform: none;
+        border: 0 !important;
+    }
+
+    .Join__img img {
+        margin: 0;
+    }
+
+    .Publication__container > div {
+        flex-direction: column;
+    }
+
+    .Publication__container > img {
+        display: none;
+    }
+}

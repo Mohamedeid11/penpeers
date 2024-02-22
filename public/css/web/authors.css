@@ -1,0 +1,91 @@
+.authors-main-serach {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.avatar {
+    border: 0.3rem solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 1rem;
+    width: 220px;
+    max-width: 100%;
+}
+.authors-main-section .card {
+    margin-bottom: 50px;
+    height: calc(100% - 50px);
+    border: 1px solid #ccc;
+    padding: 8px;
+    transition: all 0.4s ease-in-out;
+}
+.authors-main-section .card.cursor-pointer {
+    cursor: pointer;
+}
+.authors-main-section .card.selected {
+    background-color: var(--secondary-color);
+    box-shadow: 0 0px 10px inset;
+}
+.authors-main-section .card.invited {
+    background-color: var(--light-color);
+    border-color: var(--light-color);
+    box-shadow: 0 0px 10px inset;
+    cursor: not-allowed;
+}
+.author .ribbon {
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.author.selected .ribbon,
+.author.invited .ribbon {
+    width: 150px;
+    height: 150px;
+}
+
+.author .ribbon::after,
+.author .ribbon::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    border: 5px solid var(--light-color);
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.author .ribbon::before {
+    top: 0;
+    right: 0;
+}
+
+.author .ribbon::after {
+    bottom: 0;
+    left: 0;
+}
+
+.author .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: var(--light-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+}
+
+.author.selected .ribbon span {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
+.author.selected .ribbon::after,
+.author.selected .ribbon::before {
+    border-color: var(--secondary-color);
+}

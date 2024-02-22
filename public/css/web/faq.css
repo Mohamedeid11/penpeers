@@ -1,0 +1,61 @@
+.wn_accordion .card {
+    border: 0 none;
+    margin-bottom: 20px;
+}
+.wn_accordion .card {
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+}
+.wn_accordion .card-body {
+    color: var(--dark-color);
+    font-size: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.acc-header button {
+    background: #eee none repeat scroll 0 0;
+    color: var(--dark-color);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    border: 0;
+}
+.acc-header button.collapsed::after {
+    background-image: url("../../images/web/others/toggle_open.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+}
+.acc-header button::after {
+    background-image: url("../../images/web/others/toggle_close.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+}
+.wn__accordeion__content {
+    margin-bottom: 36px;
+}
+.wn__accordeion__content h2 {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    padding: 0 0 5px;
+}
+.wn__accordeion__content p {
+    color: var(--dark-color);
+    font-size: 13px;
+}
